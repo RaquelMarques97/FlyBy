@@ -1,0 +1,46 @@
+.Wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.video {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+
+  /* position: "relative";
+    padding-bottom: "56.25%";
+    padding-top: 25;
+    height: 0; */
+}
+
+.iframeyt {
+  width: 100%;
+  height: 50vh;
+}
+
+@media (max-width: 1024px) {
+  .Wrapper {
+    flex-direction: column-reverse;
+    
+
+  }
+  .video,
+  .contactBox {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+    .contactBox {
+        flex-direction: column;
+    }
+    .contactBoxCard {
+       padding-top: 10px;
+       padding-bottom: 20px;
+    }
+}

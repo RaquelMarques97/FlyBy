@@ -1,0 +1,49 @@
+{
+  "name": "iss-location",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://denisecorrea.github.io/ISSProject",
+  "dependencies": {
+    "@craco/craco": "^5.6.2",
+    "bootstrap": "^4.3.1",
+    "bootstrap-switch-button-react": "^1.1.0",
+    "cesium": "^1.63.1",
+    "craco-cesium": "^1.2.0",
+    "gh-pages": "^2.1.1",
+    "leaflet": "^1.5.1",
+    "moment": "^2.24.0",
+    "react": "^16.11.0",
+    "react-bootstrap": "^1.0.0-beta.15",
+    "react-dom": "^16.11.0",
+    "react-icons": "^3.8.0",
+    "react-leaflet": "^2.5.0",
+    "react-moment": "^0.9.6",
+    "react-responsive-navbar": "^1.0.11",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "resium": "^1.9.0-beta.0"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

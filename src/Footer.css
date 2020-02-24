@@ -1,0 +1,53 @@
+
+.footer {
+    display:flex;
+    justify-content:space-around;
+    background-color:#000;
+    border-top: 3px solid #b2ebf9;
+ 
+    
+}
+
+.footer ul {
+    display:flex;
+    list-style-type:none;    
+    
+}
+
+.contact {
+    display:flex;
+    padding-left:0;
+    padding-top:20px;
+ 
+  
+}
+
+.footer li a{
+    padding-left:10px;
+    padding-right:20px;
+    color:#b2ebf9;  
+}
+
+.footer li a:hover{
+    background-color:#000;
+    font-weight:bold;
+   
+}
+
+
+.social{
+    display:flex;
+    padding-top:20px;
+}
+
+
+
+.footer img {
+    height:30px;
+    width:30px;
+   
+}
+
+
+
+

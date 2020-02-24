@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+#root {
+  height:100%;
+  text-align:center;
+}
+
+.maincontent{
+  background-color:black;
+  min-height:calc(100vh - 105px - 79px);
+  width:100%;
+}
+
+@media (max-width: 1024px){
+  .maincontent{
+      height:100%;
+  }
+
+}
+
+

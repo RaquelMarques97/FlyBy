@@ -1,0 +1,94 @@
+.challenge-container {
+    padding: 10px;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;  
+    justify-content: center;  
+}
+
+.challenge-subtitle {
+    color: #b2ebf9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 7px 10px 0px 10px;
+}
+
+.card-body-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 18px 20px;
+}
+
+.questionBox{
+    padding: 4px 8px;
+    border-radius: 10px;
+    justify-content: space-around; 
+    color: white;
+}
+
+.question {
+    padding: 8px;
+    align-content: center;
+}
+
+.answerBtn {
+    background-color: transparent;
+    border: 2px solid #b2ebf9;
+    color: white;
+    width: 40%;
+    margin: 5px; 
+}
+
+.etAnswer {
+    padding: 15px;
+}
+
+.houstonAnswer {
+    padding: 15px;
+    height:300px;
+    width:250px;
+}
+
+.score-board {
+    border-radius: 10px;
+    justify-content: center; 
+    color: white;
+}
+
+.score {
+    justify-content: center;
+}
+
+.playBtn {
+    background-color: transparent;
+    border: 2px solid #b2ebf9;
+    color: white;
+    width: 40%;
+    margin: 5px; 
+    justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    .challenge-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .challenge-subtitle {
+        text-align:center;
+    }
+
+    .questionBox {
+        width: 200px;
+        padding: 0px;
+    }
+}
+

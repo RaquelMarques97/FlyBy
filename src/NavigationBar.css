@@ -1,0 +1,14 @@
+
+body {
+    background-color: black!important;
+}
+
+.logo {
+    height: 85px;
+}
+
+/* @media (max-width: 788px) {
+    .logo {
+        display: none;
+    }
+} */
