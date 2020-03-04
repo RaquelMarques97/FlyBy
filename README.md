@@ -1,3 +1,5 @@
+This App is a ISS folower in 2D and 3D version. It fetches 3 Apis. One for ISS location around the globe, other for the current crew in ISS, and other for sighting oportunities.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
