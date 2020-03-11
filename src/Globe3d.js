@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Viewer, Entity, CameraFlyTo, Globe } from "resium";
-import { Resource, Cartesian3, HorizontalOrigin, VerticalOrigin } from "cesium";
+import { Cesium, Resource, Cartesian3, HorizontalOrigin, VerticalOrigin } from "cesium";
 
 class Globe3D extends Component {
 
@@ -25,7 +25,7 @@ class Globe3D extends Component {
   }
 
   componentDidMount() {
-   const intervalID = setInterval(() => {
+    const intervalID = setInterval(() => {
       Resource.fetchJson('https://cors-anywhere.herokuapp.com/http://api.open-notify.org/iss-now.json').then((data) => {
         var lng = parseFloat(data.iss_position.longitude);
         var lat = parseFloat(data.iss_position.latitude);
@@ -36,13 +36,13 @@ class Globe3D extends Component {
         });
         this.distanceCalc();
       });
-   }, 3000);
-   this.setState({ intervalID: intervalID });
+    }, 3000);
+    this.setState({ intervalID: intervalID });
   }
 
   componentWillUnmount() {
     clearInterval(this.state.intervalID);
-}
+  }
 
   toggleIss = () => {
     this.setState({ followIss: !this.state.followIss });
